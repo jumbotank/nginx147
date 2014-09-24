@@ -13,5 +13,5 @@ main( ){
   proc_PID = atoi(buffer);
   cout << "getpid     : " << get_PID  << endl;
   cout << "/proc/self : " << proc_PID << endl;
-  return 0;
+  return 1;
 }
